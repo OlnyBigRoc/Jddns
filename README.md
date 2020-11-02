@@ -1,2 +1,6 @@
 # J-ddns
-自己实现动态域名解析，有域名，有公网，但没有固定ip的解决方案
+> Java 实现的动态域名解析，适用于有 `域名`、`非固定公网 IP` 的用户使用
+---
+- 服务商支持:
+  - :white_check_mark: [DNSPOD](https://www.dnspod.cn/) （腾讯）
+
