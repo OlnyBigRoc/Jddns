@@ -21,7 +21,7 @@ mvn package -DskipTests
 ```shell script
 java -jar jddns-0.0.1.jar > jddns.log &
 ```
-如果Linux存在时区问题 请使用这条命令
+如果Linux存在时区问题 请使用
 ```shell script
 java -jar -Duser.timezone=GMT+08  jddns-0.0.1.jar > jddns.log &
 ```
