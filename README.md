@@ -1,6 +1,6 @@
 # J-DDNS
 >   Java 实现的动态域名解析，适用于有 `域名`、`非固定公网 IP` 的用户使用。  
->   原理为程序启动时查询一次公网 IP ，如果当前IP与记录值不匹配就会更新记录的记录值（IP）；之后每隔 5 分钟跑一次上述逻辑。  
+>   原理为 `启动`>`查询公网 IP`>`与记录值比对`>`相同：结束 不同：更新`；之后每隔 5 分钟执行一次上述逻辑。  
 >   如需更改定时任务时间，修改 [DdnsTask](https://github.com/OlnyBigRoc/Jddns/blob/main/src/main/java/cn/bigroc/jddns/task/DdnsTask.java) cron值即可。 
 
 ## 服务商支持:
