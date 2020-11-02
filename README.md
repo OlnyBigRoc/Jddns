@@ -25,3 +25,5 @@ java -jar jddns-0.0.1.jar > jddns.log &
 ```shell script
 java -jar -Duser.timezone=GMT+08  jddns-0.0.1.jar > jddns.log &
 ```
+### 配置
+-  DNSPOD token 使用示例 [DNSPOD_DOC](https://docs.dnspod.cn/account/5f2d466de8320f1a740d9ff3/) 
