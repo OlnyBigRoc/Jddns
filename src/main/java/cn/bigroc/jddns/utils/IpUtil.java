@@ -1,4 +1,4 @@
-package cn.bigroc.ddns.utils;
+package cn.bigroc.jddns.utils;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package cn.bigroc.ddns.model.dnspod.entity;
+package cn.bigroc.jddns.model.dnspod.entity;
 
 import java.util.Date;
 

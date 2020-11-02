@@ -1,4 +1,4 @@
-package cn.bigroc.ddns;
+package cn.bigroc.jddns;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,8 +1,8 @@
-package cn.bigroc.ddns.task;
+package cn.bigroc.jddns.task;
 
 
-import cn.bigroc.ddns.model.dnspod.Dnspod;
-import cn.bigroc.ddns.utils.IpUtil;
+import cn.bigroc.jddns.model.dnspod.Dnspod;
+import cn.bigroc.jddns.utils.IpUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

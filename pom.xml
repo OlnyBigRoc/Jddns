@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>cn.bigroc</groupId>
-    <artifactId>ddns</artifactId>
+    <artifactId>jddns</artifactId>
     <version>0.0.1</version>
-    <name>ddns</name>
+    <name>jddns</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

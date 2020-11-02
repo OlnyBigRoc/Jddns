@@ -1,12 +1,10 @@
-package cn.bigroc.ddns.model.dnspod;
+package cn.bigroc.jddns.model.dnspod;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.IOException;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author lipeng

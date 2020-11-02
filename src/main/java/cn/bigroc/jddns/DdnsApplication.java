@@ -1,4 +1,4 @@
-package cn.bigroc.ddns;
+package cn.bigroc.jddns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

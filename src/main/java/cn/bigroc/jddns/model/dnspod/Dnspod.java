@@ -1,8 +1,8 @@
-package cn.bigroc.ddns.model.dnspod;
+package cn.bigroc.jddns.model.dnspod;
 
-import cn.bigroc.ddns.model.dnspod.entity.Domain;
-import cn.bigroc.ddns.model.dnspod.entity.Record;
-import cn.bigroc.ddns.utils.HttpUtil;
+import cn.bigroc.jddns.model.dnspod.entity.Domain;
+import cn.bigroc.jddns.model.dnspod.entity.Record;
+import cn.bigroc.jddns.utils.HttpUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
