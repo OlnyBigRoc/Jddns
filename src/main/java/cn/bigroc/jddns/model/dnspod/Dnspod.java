@@ -68,20 +68,20 @@ public class Dnspod {
     private Record record;
 
     public void run(String newIp) throws IOException {
-        if(null == record){
+        if (null == record) {
             getDomain();
             getDomainId();
             getRecord();
-            if(null == record){
+            if (null == record) {
                 return;
             }
-        }else{
+        } else {
             info();
         }
         String oldIp = record.getValue();
         log.info("old IP :      【{}】", oldIp);
         log.info("new IP :      【{}】", newIp);
-        if(!newIp.equals(oldIp)){
+        if (!newIp.equals(oldIp)) {
             modify(newIp);
         }
     }
@@ -117,6 +117,7 @@ public class Dnspod {
 
     /**
      * 3、记录信息
+     *
      * @throws IOException 网络异常
      */
     public void getRecord() throws IOException {
@@ -139,7 +140,7 @@ public class Dnspod {
      * 获取记录信息
      */
     public void info() throws IOException {
-        String urlParameters = "login_token=" + loginToken + "&format=json&domain_id="+domainId+"&record_id="+record.getId();
+        String urlParameters = "login_token=" + loginToken + "&format=json&domain_id=" + domainId + "&record_id=" + record.getId();
         String res = HttpUtil.sendPost(INFO, urlParameters);
         JSONObject parse = (JSONObject) JSON.parse(res);
         if (parse.containsKey("record")) {
@@ -153,7 +154,7 @@ public class Dnspod {
      * @param ip 公网ip
      */
     public void modify(String ip) throws IOException {
-        String urlParameters = "login_token=" + loginToken + "&format=json&domain_id="+domainId+"&record_id="+record.getId()+"&sub_domain=bt&value=" + ip + "&record_type=A&record_line_id="+record.getRecord_line_id();
+        String urlParameters = "login_token=" + loginToken + "&format=json&domain_id=" + domainId + "&record_id=" + record.getId() + "&sub_domain=bt&value=" + ip + "&record_type=A&record_line_id=" + record.getRecord_line_id();
         String res = HttpUtil.sendPost(MODIFY, urlParameters);
         log.info("modify result:【{}】", res);
     }
