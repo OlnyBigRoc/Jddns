@@ -19,7 +19,8 @@ import java.util.Optional;
  * DNSPOD 接口解析操作库
  * http://www.dnspod.cn/docs/domains.html
  *
- * @author lipeng
+ * @author onlybigroc
+ * See { @linktourl http://onlybigroc.cn}
  * @date 2020/11/1 22:40
  */
 @Component

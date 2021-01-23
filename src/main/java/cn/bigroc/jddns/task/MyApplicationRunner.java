@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * 系统启动完成后执行
- * @author lipeng
+ * @author onlybigroc
+ * See { @linktourl http://onlybigroc.cn}
  * @date 2020/10/29 8:52
  */
 @Component

@@ -3,7 +3,8 @@ package cn.bigroc.jddns.model.dnspod.entity;
 import java.util.Date;
 
 /**
- * @author lipeng
+ * @author onlybigroc
+ * See { @linktourl http://onlybigroc.cn}
  * @date 2020/11/1 23:49
  */
 public class Status {

@@ -3,7 +3,8 @@ package cn.bigroc.jddns.utils;
 import java.io.IOException;
 
 /**
- * @author lipeng
+ * @author onlybigroc
+ * See { @linktourl http://onlybigroc.cn}
  * @date 2020/10/29 21:43
  */
 public class IpUtil {

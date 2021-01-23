@@ -9,7 +9,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * @author lipeng
+ * @author onlybigroc
+ * See { @linktourl http://onlybigroc.cn}
  * @date 2020/10/29 20:37
  */
 public class HttpUtil {
